@@ -1,0 +1,4 @@
+test_animation
+25
+25
+10

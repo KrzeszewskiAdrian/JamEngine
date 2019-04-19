@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{b1ad4cdc-16de-4225-bc95-107070668b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Clickable System">
+      <UniqueIdentifier>{35682f6d-e1f5-4ad1-8a3d-98acef9e3829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Global Managers">
+      <UniqueIdentifier>{a439112c-7803-4d4d-98c9-83ea557f7dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Input Managment">
+      <UniqueIdentifier>{86c9708e-db65-4e0b-95a8-b105e4833d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Logic Managment">
+      <UniqueIdentifier>{0cfafbb7-5712-45f0-aca6-4d39750200e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Panel Managment">
+      <UniqueIdentifier>{12841521-c8bd-4790-b7b0-2ceb699015ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Render Managment">
+      <UniqueIdentifier>{acff870e-8dd6-4e5c-bc43-d4fcc19b06f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Renderable System">
+      <UniqueIdentifier>{90a6a836-0912-402b-9f11-a4edc5367804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Settings">
+      <UniqueIdentifier>{7c84d8b8-c2e5-4cc3-9556-f36468a75a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Sound Managment">
+      <UniqueIdentifier>{4c26f69f-71fd-4d53-bd7b-7bc48c4fd527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Temp test">
+      <UniqueIdentifier>{eaec21d9-3576-4116-86b7-7fd0dfe19703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{a8e2631a-b0d5-4a63-b521-f68c73e5bafb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Panel Managment">
+      <UniqueIdentifier>{0da367fc-d25f-4d34-b0e2-c1cce489c239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Render Managment">
+      <UniqueIdentifier>{00261173-1da7-44c6-9fd7-695754c7337c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Renderable System">
+      <UniqueIdentifier>{29a50e26-4da6-4c94-804d-378eb014070a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Settings">
+      <UniqueIdentifier>{7ce5ac6b-57f6-47ff-887b-5800fed9e72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Sound Managment">
+      <UniqueIdentifier>{38d78df9-89e5-4105-9c0c-4a475b9aa4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Temp test">
+      <UniqueIdentifier>{7e5c99a6-6c12-402f-93f8-c9be9bf809bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Clickable System">
+      <UniqueIdentifier>{91ca31e7-a37a-4662-9dca-224ea18385f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Global Managers">
+      <UniqueIdentifier>{aba81195-a75a-4262-a313-e569b899584d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Input Managment">
+      <UniqueIdentifier>{c8ba8e29-2073-4064-a908-89a2e66440f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Logic Managment">
+      <UniqueIdentifier>{22a1bccd-32c6-497c-bb90-798424188766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Menu Management">
+      <UniqueIdentifier>{8a67c2e4-e833-47b8-bcf8-f7e9a292885b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Global structs &amp; enums &amp; defined">
+      <UniqueIdentifier>{1c615f47-0b7c-4def-88d8-a29eb1b23a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Menu Managment">
+      <UniqueIdentifier>{1bf19f2f-564b-4e43-bdbb-90c7a0878959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Render Managment\Animation">
+      <UniqueIdentifier>{157edf05-bbfe-4951-8858-9868615d4b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Render Managment\Camera">
+      <UniqueIdentifier>{78e6e482-f454-475d-a84d-5db515c82aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Render Managment\Animation">
+      <UniqueIdentifier>{100ea99c-f079-42e2-95f3-99ac04b04003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Render Managment\Camera">
+      <UniqueIdentifier>{49072baa-5e0f-4d7d-b3cb-970c45945359}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Clickable.cpp">
+      <Filter>Source Files\Engine\Clickable System</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickableLists.cpp">
+      <Filter>Source Files\Engine\Clickable System</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickableObjectsList.cpp">
+      <Filter>Source Files\Engine\Clickable System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Engine\Global Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationManager.cpp">
+      <Filter>Source Files\Engine\Global Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InitSettings.cpp">
+      <Filter>Source Files\Engine\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\Engine\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Source Files\Engine\Menu Management</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuRenderManager.cpp">
+      <Filter>Source Files\Engine\Menu Management</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLogicManager.cpp">
+      <Filter>Source Files\Engine\Menu Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Source Files\Engine\Panel Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelClick.cpp">
+      <Filter>Source Files\Engine\Panel Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelClicksList.cpp">
+      <Filter>Source Files\Engine\Panel Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelManager.cpp">
+      <Filter>Source Files\Engine\Panel Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableLists.cpp">
+      <Filter>Source Files\Engine\Renderable System</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Source Files\Engine\Renderable System</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableObjectsList.cpp">
+      <Filter>Source Files\Engine\Renderable System</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Source Files\Engine\Render Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\Engine\Global Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Source Files\Engine\Sound Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Engine\Sound Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundOrder.cpp">
+      <Filter>Source Files\Engine\Sound Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundOrderPack.cpp">
+      <Filter>Source Files\Engine\Sound Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Engine\Render Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="InputRaport.cpp">
+      <Filter>Source Files\Engine\Input Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Engine\Input Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicManager.cpp">
+      <Filter>Source Files\Engine\Logic Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicRaport.cpp">
+      <Filter>Source Files\Engine\Logic Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Engine\Logic Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderOrder.cpp">
+      <Filter>Source Files\Engine\Render Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Source Files\Engine\Render Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderOrderPack.cpp">
+      <Filter>Source Files\Engine\Render Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSettings.cpp">
+      <Filter>Source Files\Engine\Render Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObject.cpp">
+      <Filter>Source Files\Engine\Temp test</Filter>
+    </ClCompile>
+    <ClCompile Include="TestList.cpp">
+      <Filter>Source Files\Engine\Temp test</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Engine\Render Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Engine\Render Managment\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSettings.cpp">
+      <Filter>Source Files\Engine\Render Managment\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine\Render Managment\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraOrder.cpp">
+      <Filter>Source Files\Engine\Render Managment\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraOrderPack.cpp">
+      <Filter>Source Files\Engine\Render Managment\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCastMap.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Header Files\Engine\Render Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderOrder.h">
+      <Filter>Header Files\Engine\Render Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSettings.h">
+      <Filter>Header Files\Engine\Render Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="Clickable.h">
+      <Filter>Header Files\Engine\Clickable System</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickableLists.h">
+      <Filter>Header Files\Engine\Clickable System</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickableObjectsList.h">
+      <Filter>Header Files\Engine\Clickable System</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickboxCode.h">
+      <Filter>Header Files\Engine\Clickable System</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Header Files\Engine\Renderable System</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableLists.h">
+      <Filter>Header Files\Engine\Renderable System</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableObjectsList.h">
+      <Filter>Header Files\Engine\Renderable System</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Engine\Render Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerCode.h">
+      <Filter>Header Files\Engine\Global structs &amp; enums &amp; defined</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewportCode.h">
+      <Filter>Header Files\Engine\Global structs &amp; enums &amp; defined</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Header Files\Engine\Sound Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Engine\Sound Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundOrder.h">
+      <Filter>Header Files\Engine\Sound Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundOrderPack.h">
+      <Filter>Header Files\Engine\Sound Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantDefined.h">
+      <Filter>Header Files\Engine\Global structs &amp; enums &amp; defined</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObject.h">
+      <Filter>Header Files\Engine\Temp test</Filter>
+    </ClInclude>
+    <ClInclude Include="TestListClick.h">
+      <Filter>Header Files\Engine\Temp test</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObjectClick.h">
+      <Filter>Header Files\Engine\Temp test</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicRaport.h">
+      <Filter>Header Files\Engine\Logic Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicManager.h">
+      <Filter>Header Files\Engine\Logic Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Engine\Logic Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="InitSettings.h">
+      <Filter>Header Files\Engine\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\Engine\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Header Files\Engine\Panel Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelClick.h">
+      <Filter>Header Files\Engine\Panel Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelClicksList.h">
+      <Filter>Header Files\Engine\Panel Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelManager.h">
+      <Filter>Header Files\Engine\Panel Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="InputRaport.h">
+      <Filter>Header Files\Engine\Input Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Engine\Input Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCode.h">
+      <Filter>Header Files\Engine\Input Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Header Files\Engine\Render Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Header Files\Engine\Menu Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuRenderManager.h">
+      <Filter>Header Files\Engine\Menu Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Engine\Global Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationManager.h">
+      <Filter>Header Files\Engine\Global Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuLogicManager.h">
+      <Filter>Header Files\Engine\Menu Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderOrderPack.h">
+      <Filter>Header Files\Engine\Render Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="PosRect.h">
+      <Filter>Header Files\Engine\Global structs &amp; enums &amp; defined</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\Engine\Render Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Engine\Render Managment\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSettings.h">
+      <Filter>Header Files\Engine\Render Managment\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickAnimation.h">
+      <Filter>Header Files\Engine\Render Managment\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Engine\Render Managment\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraOrder.h">
+      <Filter>Header Files\Engine\Render Managment\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraOrderPack.h">
+      <Filter>Header Files\Engine\Render Managment\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCastMap.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

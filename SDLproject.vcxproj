@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{D96A3806-4E92-4F99-9A73-B6DBF26C58E8}</ProjectGuid>
+    <RootNamespace>SDLproject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\LIBRARIES\SDL2 mixer\include;D:\LIBRARIES\SDL2 image 2.04\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\LIBRARIES\SDL2 mixer\lib\x86;D:\LIBRARIES\SDL2 image 2.04\lib\x86;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(ProjectDir)/src;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\LIBRARIES\SDL2-2.0.9\include;$(ProjectDir)/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\LIBRARIES\SDL 2\include;$(ProjectDir)\src;D:\LIBRARIES\SDL2-2.0.9\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\LIBRARIES\SDL2-2.0.9\lib\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\LIBRARIES\SDL2 mixer\include;D:\LIBRARIES\SDL2-2.0.9\include;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AnimationSettings.cpp" />
+    <ClCompile Include="ApplicationManager.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraOrder.cpp" />
+    <ClCompile Include="CameraOrderPack.cpp" />
+    <ClCompile Include="Clickable.cpp" />
+    <ClCompile Include="ClickableLists.cpp" />
+    <ClCompile Include="ClickableObjectsList.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="InitSettings.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="InputRaport.cpp" />
+    <ClCompile Include="PanelClick.cpp" />
+    <ClCompile Include="PanelClicksList.cpp" />
+    <ClCompile Include="PanelManager.cpp" />
+    <ClCompile Include="QuickAnimation.cpp" />
+    <ClCompile Include="RayCastMap.cpp" />
+    <ClCompile Include="Renderable.cpp" />
+    <ClCompile Include="LogicManager.cpp" />
+    <ClCompile Include="LogicRaport.cpp" />
+    <ClCompile Include="MenuLogicManager.cpp" />
+    <ClCompile Include="MenuManager.cpp" />
+    <ClCompile Include="MenuRenderManager.cpp" />
+    <ClCompile Include="Panel.cpp" />
+    <ClCompile Include="RenderableLists.cpp" />
+    <ClCompile Include="RenderableObjectsList.cpp" />
+    <ClCompile Include="RenderManager.cpp" />
+    <ClCompile Include="RenderOrder.cpp" />
+    <ClCompile Include="RenderOrderPack.cpp" />
+    <ClCompile Include="RenderSettings.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="SoundEffect.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SoundOrder.cpp" />
+    <ClCompile Include="SoundOrderPack.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="TestList.cpp" />
+    <ClCompile Include="TestObject.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Viewport.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationSettings.h" />
+    <ClInclude Include="ApplicationManager.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraOrder.h" />
+    <ClInclude Include="CameraOrderPack.h" />
+    <ClInclude Include="Clickable.h" />
+    <ClInclude Include="ClickableLists.h" />
+    <ClInclude Include="ClickableObjectsList.h" />
+    <ClInclude Include="ClickboxCode.h" />
+    <ClInclude Include="ConstantDefined.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="InitSettings.h" />
+    <ClInclude Include="InputCode.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="InputRaport.h" />
+    <ClInclude Include="LayerCode.h" />
+    <ClInclude Include="LogicManager.h" />
+    <ClInclude Include="LogicRaport.h" />
+    <ClInclude Include="MenuLogicManager.h" />
+    <ClInclude Include="MenuManager.h" />
+    <ClInclude Include="MenuRenderManager.h" />
+    <ClInclude Include="Panel.h" />
+    <ClInclude Include="PanelClick.h" />
+    <ClInclude Include="PanelClicksList.h" />
+    <ClInclude Include="PanelManager.h" />
+    <ClInclude Include="PosRect.h" />
+    <ClInclude Include="QuickAnimation.h" />
+    <ClInclude Include="RayCastMap.h" />
+    <ClInclude Include="Renderable.h" />
+    <ClInclude Include="RenderableLists.h" />
+    <ClInclude Include="RenderableObjectsList.h" />
+    <ClInclude Include="RenderManager.h" />
+    <ClInclude Include="RenderOrder.h" />
+    <ClInclude Include="RenderOrderPack.h" />
+    <ClInclude Include="RenderSettings.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="SoundEffect.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="SoundOrder.h" />
+    <ClInclude Include="SoundOrderPack.h" />
+    <ClInclude Include="TestListClick.h" />
+    <ClInclude Include="TestObject.h" />
+    <ClInclude Include="TestObjectClick.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Viewport.h" />
+    <ClInclude Include="ViewportCode.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
