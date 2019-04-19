@@ -44,7 +44,7 @@ Framework posiada autorskie rozwiązania w obsłudze zadań:
 
 Projekt został podzielony na systemy zarządzające w następujący sposób:
 
-![Screenshot](Source_structure.png)
+![Screenshot](readme/Example0.png)
 
 ## Główne rozwiązania
 
@@ -130,7 +130,7 @@ CameraOrder testCamera(LOADING_MAIN);
 
 Powyższy kod odgrywa dźwięk, dodaje statyczny obraz, dodaje animację, umieszcza na ekranie tekst w wybranej czcionce oraz cyklicznie losuje nową pozycję kamery.
 
-![](Example1.gif)
+![](readme/Example1.gif)
 
 #### Automatyczne dodawanie rozkazów
 
@@ -160,7 +160,7 @@ for (int i = 0; i < 50; i++)
 
 Powyższy kod dodaje do listy 50 różnych obiektów z losową pozycją i rotacją. W kolejnych kratkach są one, automatycznie renderowane bez udziału użytkownika.
 
-![Screenshot](Example2.png)
+![Screenshot](readme/Example2.png)
 	
 
 ### Clickable
@@ -179,7 +179,7 @@ Każdy stworzony viewport posiada własną kamerę. Pozycje wszystkich kamer są
 testCamera.slide(rand()%500  , rand()%500 );
 ```
 
-![](Example3.gif)
+![](readme/Example3.gif)
 
 **softSlide:**
 
@@ -187,7 +187,7 @@ testCamera.slide(rand()%500  , rand()%500 );
 testCamera.softSlide(rand()%500  , rand()%500 );
 ```
 
-![](Example4.gif)
+![](readme/Example4.gif)
 
 ### InputManagment
 
@@ -223,5 +223,5 @@ W każdej klatce automatycznie tworzona jest lista kodów uzyskanych na podstawi
 
 ## Struktura katalogów zasobów:
 
-![Screenshot](Example5.png)
+![Screenshot](readme/Example5.png)
 
