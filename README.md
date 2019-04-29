@@ -1,7 +1,7 @@
 # JamEngine
 C++ framework dedykowany do szybkiej budowy gier 2D podczas wydarzeń typu Game Jam.
 
-> > **News: Powstała pierwsza gra napisana za pomocą JamEngine!**  
+> > **Powstała pierwsza gra napisana za pomocą JamEngine!**  
 > > Gra **Today?** - Game Jam Square 2019  
 > > Skrócony gameplay:  
 > > https://www.youtube.com/watch?v=2iPLFyxck5E
