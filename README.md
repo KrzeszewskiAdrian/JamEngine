@@ -1,6 +1,11 @@
 # JamEngine
 C++ framework dedykowany do szybkiej budowy gier 2D podczas wydarzeń typu Game Jam.
 
+> > **News: Powstała pierwsza gra napisana za pomocą JamEngine!**  
+> > Gra **Today?** - Game Jam Square 2019  
+> > Skrócony gameplay:  
+> > https://www.youtube.com/watch?v=2iPLFyxck5E
+
 JamEngine to autorski framework napisany w języku C++ z użyciem biblioteki SDL2, stworzony z myślą o umożliwieniu jak najszybszego tworzenia gier podczas Game Jamów lub innych zawodów opartych na szybkim tworzeniu oprogramowania.
 
 Projekt oraz ta strona znajduje się w fazie dalszego rozwoju.
